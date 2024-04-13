@@ -1,0 +1,22 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Outfit:wght@100..900&display=swap");
+@import url("header.css");
+
+
+:root {
+    --dark-blue: #0B3954;
+    --medium-blue: #126586;
+    --light-blue: #3FB2CA;
+    --dark-orange: #FE5F01;
+    --light-orange: #FD9701;
+    --white: #fffada
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+

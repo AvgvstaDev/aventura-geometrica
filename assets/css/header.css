@@ -1,0 +1,26 @@
+.navbar-custom {
+
+    background-color: var(--dark-blue);
+    padding: 1rem;
+    position: fixed;
+
+}
+
+.container-fluid a {
+    font-family: Anton;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 30px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.navbar-calcular {
+    margin-right: 20px;
+}
+
