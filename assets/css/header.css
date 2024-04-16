@@ -1,18 +1,20 @@
 .navbar-custom {
-
     background-color: var(--dark-blue);
     padding: 1rem;
     position: fixed;
-
 }
 
 .container-fluid a {
-    font-family: Anton;
+    font-family: var(--fonte-primaria);
     text-decoration: none;
     color: var(--white);
     font-size: 30px;
     display: inline-flex;
     align-items: center;
+}
+
+.container-fluid a:hover {
+    color: var(--white);
 }
 
 .navbar-brand {
@@ -24,3 +26,21 @@
     margin-right: 20px;
 }
 
+h1 {
+    color: var(--white);
+    font-family: var(--fonte-primaria);
+}
+
+p {
+    color: var(--white);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem!important;
+}
+
+.bsb-hero-1 {
+    padding-bottom: 5rem;
+}
+
+hr.solid {
+    border-top: 3px solid var(--white);
+  }
