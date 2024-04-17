@@ -13,10 +13,6 @@
     align-items: center;
 }
 
-.container-fluid a:hover {
-    color: var(--white);
-}
-
 .navbar-brand {
     gap: 10px;
     margin-left: 20px;
@@ -43,4 +39,13 @@ p {
 
 hr.solid {
     border-top: 3px solid var(--white);
-  }
+}
+
+.container-fluid a:hover {
+    color: var(--light-orange) !important;
+}
+
+.container-fluid a:active {
+    color: var(--light-orange) !important;
+}
+
