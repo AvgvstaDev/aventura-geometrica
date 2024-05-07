@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Círculo</title>
+    <title>Cubo</title>
     <link rel="icon" href="assets/img/icones/logo.png">
     <meta charset="UTF-8">
     <meta name="keywords" content="Aventura Geométrica, formas, geometria, calculadora, área, matemática">
@@ -39,15 +39,15 @@
             </div>
         </nav>
 
-        <section class="bsb-hero-1 px-3 bsb-overlay" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(61, 61, 59, 0.5)), url('./assets/img/circulo2.jpg'); padding-top:3rem; padding-bottom: 2rem;" >
+        <section class="bsb-hero-1 px-3 bsb-overlay" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(61, 61, 59, 0.5)), url('./assets/img/cubo2.jpg'); padding-top:3rem; padding-bottom: 2rem;" >
             <div class="container">
                 <div class="row justify-content-md-center">
                     <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center text-white">
-                        <h1 class="display-3 fw-bold mb-3"><br>Círculo</h1>
+                        <h1 class="display-3 fw-bold mb-3"><br>Cubo</h1>
                         <hr class="solid">
-                        <p class="lead mb-5">Na geometria, um círculo é o conjunto dos pontos internos de uma circunferência. Por vezes, também se chama círculo o conjunto de pontos cuja distância ao centro é menor ou igual a um dado valor (ao qual chamamos raio). A área de um círculo pode ser expressa matematicamente por: <br> A = π × r 2 <br> onde r é o raio da circunferência e π (Pi) uma constante. </p>
-                        <p class="lead mb-5">O círculo é conhecido desde antes do início da história registrada. Os círculos naturais são comuns, como a lua cheia ou uma fatia de fruta redonda. O círculo é a base da roda, que, com invenções relacionadas, como as engrenagens, torna possível grande parte do maquinário moderno. Na matemática, o estudo do círculo ajudou a inspirar o desenvolvimento da geometria, da astronomia e do cálculo. </p>
-                        <p><span class="fonte">Fonte: Wikipedia</span></p>
+                        <p class="lead mb-5">O cubo, conhecido também como hexaedro, é um sólido geométrico que possui seis faces, todas elas formadas por quadrados. Além das 6 faces, o cubo possui 12 arestas e 8 vértices.</p>
+                        <p class="lead mb-5">Estudado na Geometria Espacial, o cubo possui todas as suas arestas congruentes e perpendiculares, logo ele é classificado como um poliedro regular.  Podemos perceber a presença do formato de cubo no nosso cotidiano, em dados comuns utilizados em jogos, embalagens, caixas, entre outros objetos.</p>
+                        <p><span class="fonte">Fonte: Brasil Escola</span></p>
                         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                             
                         </div>
@@ -60,13 +60,13 @@
     <main>
         <div>
           <div class="card calculadora" style="width: 18rem;">
-            <img class="card-img-top" src="./assets/img/icones/circulo.jpg" alt="Círculo com os indicadores de raio, diâmetro, raio e corda.">
+            <img class="card-img-top" src="./assets/img/icones/cubo.png" alt="Imagem de um cubo">
             <div class="card-body">
-              <h5 class="card-title">Para calcular a área do círculo, informe o valor de seu raio:</h5>
-              <input type="number" id="raio_cir" class="card-input" placeholder="Raio do Círculo" required ></input>
-              <h5 class="card-title">O resultado da área é:</h5>
-              <h5 id="resul_cir"></h5>
-              <button class="btn btn-primary" id="btn_cir" onclick="calcularAreaCir()" >Calcular</button>
+              <h5 class="card-title">Para calcular o volume do cubo, informe o valor de sua aresta:</h5>
+              <input type="number" class="card-input" id="aresta_cubo" placeholder="Aresta do cubo" required></input>
+              <h5 class="card-title">O resultado do volume é:</h5>
+              <h5 class="card-title" id="resul_cubo"></h5>
+              <button class="btn btn-primary" id="btn_cubo" onclick="calcularVolCubo()">Calcular</button>
             </div>
           </div>
         </div>

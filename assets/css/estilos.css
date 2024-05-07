@@ -3,6 +3,7 @@
 @import url("header.css");
 @import url("main.css");
 @import url("footer.css");
+@import url("calculadora.css");
 
 
 :root {
@@ -25,5 +26,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 
 

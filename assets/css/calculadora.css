@@ -1,0 +1,31 @@
+.calculadora {
+    display: flex;
+    margin: 2rem auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.calculadora h5, .btn, input, li{
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+}
+
+.btn{
+    background-color: var(--dark-blue);
+    border: none;
+    margin-top: 1rem;
+}
+
+.btn:hover{
+    background-color: var(--dark-orange);
+}
+
+.calculadora input{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.fonte{
+    font-size: 1rem;
+}
+
