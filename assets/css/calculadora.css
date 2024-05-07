@@ -29,3 +29,17 @@
     font-size: 1rem;
 }
 
+#card-poligono{
+    display: flex;
+    
+    img{
+        width: 15rem;
+        margin-top: 1rem !important;
+    }
+
+  
+}
+
+#card-pentagono img{
+    width: 13rem;
+}

@@ -71,3 +71,34 @@ function calcularAreaTrapezoide () {
     let resultado = document.getElementById("resul_t")
     return resultado.textContent = `${calculo}`
 }
+
+function calcularAreaPentagono() {
+    let pBase = document.getElementById("p_base")
+    let pBaseValue = parseFloat(pBase.value)
+    let alturaP = document.getElementById("p_alt")
+    let alturaPValue = parseFloat(alturaP.value)
+    let calculo = ((pBaseValue * alturaPValue) / 2) * 5
+    let resultado = document.getElementById("resul_p")
+    return resultado.textContent = `${calculo}`
+}
+  
+function calcularAreaHexagono() {
+    let hBase = document.getElementById("h_base")
+    let hBaseValue = parseFloat(hBase.value)
+    let alturaH = document.getElementById("h_alt")
+    let alturaHValue = parseFloat(alturaH.value)
+    let calculo = ((hBaseValue * alturaHValue) / 2) * 6
+    let resultado = document.getElementById("resul_h")
+    return resultado.textContent = `${calculo}`
+}
+
+function calcularAreaTriangulo() {
+    let tBase = document.getElementById("t_base")
+    let tBaseValue = parseFloat(tBase.value)
+    let alturaT = document.getElementById("t_alt")
+    let alturaTValue = parseFloat(alturaT.value)
+    let calculo = (tBaseValue * alturaTValue) / 2
+    let resultado = document.getElementById("resul_t")
+    return resultado.textContent = `${calculo}`
+}
+  

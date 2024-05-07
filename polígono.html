@@ -58,14 +58,44 @@
     </header>
 
     <main>
-        <div>
-          <div class="card calculadora" style="width: 18rem;">
-            <img class="card-img-top" style="margin: 0 auto;" src="./assets/img/icones/poligono.jpg" alt="Imagem dos polígonos: quadrado, retângulo, triângulo e pentágono.">
+        <div id="card-poligono">
+          <div class="card calculadora" style="width: 18rem;" id="card-pentagono">
+            <img class="card-img-top" style="margin: 0 auto;" src="./assets/img/icones/pentagono.webp" alt="Imagem de um pentágono.">
             <div class="card-body">
-              <h5 class="card-title">Para calcular a área do círculo, informe o valor de seu raio:</h5>
-              <input type="number" class="card-input"></input>
+              <h5 class="card-title">Para calcular a área do pentágono, informe o valor da base de um de seus triângulos:</h5>
+              <input type="number" class="card-input"id="p_base" placeholder="Base" required></input>
+              <h5 class="card-title">Altura:</h5>
+              <input type="number" class="card-input" id="p_alt" placeholder="Altura" required></input>
               <h5 class="card-title">O resultado da área é:</h5>
-              <button class="btn btn-primary">Calcular</button>
+              <h5 id="resul_p"></h5>
+              <button class="btn btn-primary" id="btn_p" onclick="calcularAreaPentagono()">Calcular</button>
+            </div>
+          </div>
+       
+
+          <div class="card calculadora" style="width: 18rem;">
+            <img class="card-img-top" style="margin: 0 auto;" src="./assets/img/icones/hexagono.webp" alt="Imagem de um hexágono.">
+            <div class="card-body">
+              <h5 class="card-title">Para calcular a área do hexágono, informe o valor da base de um de seus triângulos:</h5>
+              <input type="number" class="card-input"id="h_base" placeholder="Base" required></input>
+              <h5 class="card-title">Altura:</h5>
+              <input type="number" class="card-input" id="h_alt" placeholder="Altura" required></input>
+              <h5 class="card-title">O resultado da área é:</h5>
+              <h5 id="resul_h"></h5>
+              <button id="btn_h" onclick="calcularAreaHexagono()" class="btn btn-primary">Calcular</button>
+            </div>
+          </div>
+
+          <div class="card calculadora" style="width: 18rem;">
+            <img class="card-img-top" style="margin: 0 auto;" src="./assets/img/icones/triangulo.webp" alt="Imagem de um triangulo.">
+            <div class="card-body">
+              <h5 class="card-title">Para calcular a área do triângulo, informe o valor de sua base:</h5>
+              <input type="number" class="card-input"id="t_base" placeholder="Base" required></input>
+              <h5 class="card-title">Altura:</h5>
+              <input type="number" class="card-input" id="t_alt" placeholder="Altura" required></input>
+              <h5 class="card-title">O resultado da área é:</h5>
+              <h5 id="resul_t"></h5>
+              <button class="btn btn-primary" id="btn_h" onclick="calcularAreaTriangulo()">Calcular</button>
             </div>
           </div>
         </div>
@@ -111,4 +141,6 @@
 
     <!--Javascript Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--Javascript-->
+    <script src="./js/script.js"></script>
 </body>
