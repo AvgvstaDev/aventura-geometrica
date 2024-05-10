@@ -45,7 +45,7 @@ hr.solid {
     color: var(--light-orange) !important;
 }
 
-.container-fluid a:active {
+.container-fluid a:active{
     color: var(--light-orange) !important;
 }
 
